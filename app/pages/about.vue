@@ -6,9 +6,6 @@
 
 <template>
     <PageContainer>
-        <div class="text-primary-500 text-2xl font-bold">
-            Hello World!
-        </div>
-    </PageContainer>  
- 
+        <h1 class="text-2xl font-bold text-primary-500">About Page</h1>
+    </PageContainer>
 </template>

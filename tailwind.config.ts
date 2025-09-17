@@ -5,7 +5,7 @@ export default <Partial<Config>>{
     theme: {
     extend: {
       colors: {
-        primary: colors.green
+        primary: colors.amber
       }
     }
   }
