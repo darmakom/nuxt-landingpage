@@ -2,10 +2,26 @@
     definePageMeta({
        layout: 'page'   
     })
+
+    useSeoMeta({
+        title: 'About'
+    })
 </script>
 
 <template>
-    <PageContainer>
-        <h1 class="text-2xl font-bold text-primary-500">About Page</h1>
-    </PageContainer>
+    <section class="h-96 bg-gray-200">
+        <PageContainer>
+            <div class="text-primary-500 text-2xl font-bold">
+                About Page
+            </div>
+        </PageContainer>
+    </section>
+    <section class="h-[1000px] bg-gray-300">
+        <PageContainer>
+            <div class="text-primary-500 text-2xl font-bold">
+                Section baru
+            </div>
+        </PageContainer>
+    </section>
+
 </template>

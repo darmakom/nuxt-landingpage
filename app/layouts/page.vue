@@ -8,7 +8,7 @@
 
 <template>
     <div class="bg-gray-100 text-gray-800 dark:bg-gray-950 dark:text-gray-100 min-h-screen flex flex-col">
-        <header class="border-b border-gray-500/50 h-[68px] flex">
+        <header class="sticky top-0 bg-gray-50/70 border-b border-gray-500/50 h-[68px] flex">
             <PageContainer class="flex-1 flex items-center justify-between">
                 <NuxtLink to="/" class="font-bold text-lg">LANDING PAGE</NuxtLink>
                 <div>
@@ -22,7 +22,7 @@
                 </div>
             </PageContainer>
         </header>
-        <main class="flex-1 flex">
+        <main class="flex-1">
             <slot />
         </main>
         <footer class="border-t border-gray-500/50 h-[48px] flex">
