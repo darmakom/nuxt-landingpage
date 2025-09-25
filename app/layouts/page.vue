@@ -26,9 +26,13 @@
             <slot />
         </main>
         <footer class="border-t border-gray-500/50 h-[48px] flex">
-            <PageContainer class="flex-1 flex items-center">
+            <PageContainer class="flex-1 flex items-center justify-between">
                 <div class="text-sm flex-1">
                     &copy; 2025
+                </div>
+                <div class="flex gap-1">
+                    <Icon name="material-symbols:favorite-outline" class="text-lg text-primary-500" />
+                    <Icon name="uil:instagram" class="text-lg text-primary-500" />
                 </div>
             </PageContainer>
         </footer>

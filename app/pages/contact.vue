@@ -4,7 +4,7 @@
     })
 
     useSeoMeta({
-        title: 'About'
+        title: 'Contact'
     })
 </script>
 
@@ -12,9 +12,8 @@
     <section class="h-96 bg-gray-200">
         <PageContainer>
             <div class="text-primary-500 text-2xl font-bold">
-                About Page
+                Contact Page
             </div>
-            <NuxtImg src="/public/images/samantha-borges-gXsJ9Ywb5as-unsplash.jpg" />
         </PageContainer>
     </section>
     <section class="h-[1000px] bg-gray-300">

@@ -4,7 +4,8 @@
     })
 
     useSeoMeta({
-        title: 'Home'
+        title: 'LANDINGPAGE',
+        titleTemplate: '',
     })
 </script>
 
