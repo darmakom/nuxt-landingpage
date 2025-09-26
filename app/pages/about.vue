@@ -14,7 +14,7 @@
             <div class="text-primary-500 text-2xl font-bold">
                 About Page
             </div>
-            <NuxtImg src="/public/images/samantha-borges-gXsJ9Ywb5as-unsplash.jpg" />
+            <img src="assets/images/samantha-borges-gXsJ9Ywb5as-unsplash.jpg" class="mt-6 w-[300px]" />
         </PageContainer>
     </section>
     <section class="h-[1000px] bg-gray-300">

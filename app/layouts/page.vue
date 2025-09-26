@@ -32,7 +32,6 @@
                 </div>
                 <div class="flex gap-1">
                     <Icon name="material-symbols:favorite-outline" class="text-lg text-primary-500" />
-                    <Icon name="uil:instagram" class="text-lg text-primary-500" />
                 </div>
             </PageContainer>
         </footer>
